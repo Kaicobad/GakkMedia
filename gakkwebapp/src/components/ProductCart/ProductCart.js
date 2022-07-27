@@ -1,13 +1,16 @@
-import React from "react";
+import React from 'react';
+// import PropTypes from 'prop-types';
+// import styles from './ProductCart.module.scss';
 
+const ProductCart = () => (
+  // <div className={styles.ProductCart}>
+  <div>
+    ProductCart Component
+  </div>
+);
 
-const ProductCart = () =>
-{
-    return(
-        <div>
-            cart
-        </div>
-    )
-}
+ProductCart.propTypes = {};
+
+ProductCart.defaultProps = {};
 
 export default ProductCart;
